@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700">
+
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12"
+            refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- Фон -->
+  <rect width="1000" height="700" fill="#f7f7f7"/>
+
+  <!-- Заголовок -->
+  <text x="500" y="55"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="30"
+        font-weight="bold"
+        fill="#222">
+    Состояния игры Space Invaders
+  </text>
+
+  <!-- MENU -->
+  <rect x="350" y="100" width="300" height="110"
+        rx="15"
+        fill="#ffffff"
+        stroke="#333"
+        stroke-width="3"/>
+
+  <text x="500" y="145"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="26"
+        font-weight="bold"
+        fill="#222">
+    MENU
+  </text>
+
+  <text x="500" y="180"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#444">
+    Главное меню
+  </text>
+
+  <!-- PLAYING -->
+  <rect x="350" y="290" width="300" height="120"
+        rx="15"
+        fill="#ffffff"
+        stroke="#333"
+        stroke-width="3"/>
+
+  <text x="500" y="335"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="26"
+        font-weight="bold"
+        fill="#222">
+    PLAYING
+  </text>
+
+  <text x="500" y="370"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#444">
+    Игровой процесс
+  </text>
+
+  <text x="500" y="395"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="14"
+        fill="#666">
+    движение, стрельба, столкновения
+  </text>
+
+  <!-- GAME OVER -->
+  <rect x="350" y="500" width="300" height="110"
+        rx="15"
+        fill="#ffffff"
+        stroke="#333"
+        stroke-width="3"/>
+
+  <text x="500" y="545"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="26"
+        font-weight="bold"
+        fill="#222">
+    GAME OVER
+  </text>
+
+  <text x="500" y="580"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        fill="#444">
+    Игра окончена
+  </text>
+
+  <!-- MENU -> PLAYING -->
+  <line x1="500" y1="210" x2="500" y2="285"
+        stroke="#333"
+        stroke-width="3"
+        marker-end="url(#arrow)"/>
+
+  <text x="520" y="255"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        fill="#333">
+    START / Enter / Space
+  </text>
+
+  <!-- PLAYING -> GAME OVER -->
+  <line x1="500" y1="410" x2="500" y2="495"
+        stroke="#333"
+        stroke-width="3"
+        marker-end="url(#arrow)"/>
+
+  <text x="520" y="455"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        fill="#333">
+    0 жизней
+  </text>
+
+  <text x="520" y="477"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        fill="#333">
+    или враги достигли игрока
+  </text>
+
+  <!-- GAME OVER -> PLAYING -->
+  <path d="M350 555
+           C180 555, 180 350, 340 350"
+        fill="none"
+        stroke="#333"
+        stroke-width="3"
+        marker-end="url(#arrow)"/>
+
+  <text x="105" y="455"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        fill="#333">
+    R
+  </text>
+
+  <text x="95" y="480"
+        font-family="Arial, sans-serif"
+        font-size="15"
+        fill="#555">
+    новая игра
+  </text>
+
+  <!-- GAME OVER -> MENU -->
+  <path d="M650 555
+           C820 555, 820 155, 660 155"
+        fill="none"
+        stroke="#333"
+        stroke-width="3"
+        marker-end="url(#arrow)"/>
+
+  <text x="835" y="345"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        fill="#333">
+    ESC
+  </text>
+
+  <text x="780" y="370"
+        font-family="Arial, sans-serif"
+        font-size="15"
+        fill="#555">
+    возврат в меню
+  </text>
+
+</svg>

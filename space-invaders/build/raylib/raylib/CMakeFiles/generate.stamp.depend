@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CPack.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CPackComponent.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindOpenGL.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/GNUInstallDirs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Templates/CPackConfig.cmake.in
+C:/Projects/practice-project-a/space-invaders/raylib/cmake/CompileDefinitions.cmake
+C:/Projects/practice-project-a/space-invaders/raylib/cmake/GlfwImport.cmake
+C:/Projects/practice-project-a/space-invaders/raylib/cmake/InstallConfigurations.cmake
+C:/Projects/practice-project-a/space-invaders/raylib/cmake/JoinPaths.cmake
+C:/Projects/practice-project-a/space-invaders/raylib/cmake/LibraryConfigurations.cmake
+C:/Projects/practice-project-a/space-invaders/raylib/cmake/LibraryPathToLinkerFlags.cmake
+C:/Projects/practice-project-a/space-invaders/raylib/cmake/PackConfigurations.cmake
+C:/Projects/practice-project-a/space-invaders/raylib/cmake/PopulateConfigVariablesLocally.cmake
+C:/Projects/practice-project-a/space-invaders/raylib/cmake/raylib-config-version.cmake
+C:/Projects/practice-project-a/space-invaders/raylib/raylib.pc.in
+C:/Projects/practice-project-a/space-invaders/raylib/src/CMakeLists.txt

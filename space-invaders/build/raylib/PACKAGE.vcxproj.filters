@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\practice-project-a\space-invaders\build\CMakeFiles\64d93afbb807cc94902f36e113de1e40\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5612DAF2-AC3C-36D2-ADE6-84A389097B7E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

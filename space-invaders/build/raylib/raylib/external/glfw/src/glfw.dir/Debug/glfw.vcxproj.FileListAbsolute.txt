@@ -1,0 +1,1 @@
+C:\Projects\practice-project-a\space-invaders\build\raylib\raylib\external\glfw\src\glfw.dir\Debug\glfw.lib
