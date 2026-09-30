@@ -18,12 +18,12 @@
 
 В рамках вариативной части планируется изучить принцип разработки игры Space Invaders на языке C++, воспроизвести основные этапы реализации и внести собственное изменение в проект.
 
+* [Реализация](./space-invaders/) находиться в **space-invaders/...**.
+* Отчет по вариативной части [space-invaders.md](./docs/space-invaders.md) размещен в **docs/...**.
+
 Источник задания:
 
 * [Build Your Own X — Space Invaders from Scratch](https://github.com/codecrafters-io/build-your-own-x)
-
-* [Реализация](./space-invaders/) находиться в **space-invaders/...**.
-* Отчет по вариативной части [space-invaders.md](./docs/space-invaders.md) размещен в **docs/...**.
 
 ## Ответственный по проектной (учебной) практике
 
