@@ -19,11 +19,6 @@
 Источник задания:
 
 * [Build Your Own X — Space Invaders from Scratch](https://github.com/codecrafters-io/build-your-own-x)
-* [Space Invaders from Scratch — Part 1](https://nicktasios.nl/posts/space-invaders-from-scratch-part-1.html)
-* [Space Invaders from Scratch — Part 2](https://nicktasios.nl/posts/space-invaders-from-scratch-part-2.html)
-* [Space Invaders from Scratch — Part 3](https://nicktasios.nl/posts/space-invaders-from-scratch-part-3.html)
-* [Space Invaders from Scratch — Part 4](https://nicktasios.nl/posts/space-invaders-from-scratch-part-4.html)
-* [Space Invaders from Scratch — Part 5](https://nicktasios.nl/posts/space-invaders-from-scratch-part-5.html)
 
 ## Ответственный по проектной (учебной) практике
 
