@@ -4,107 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Графика и медиа — Проектная практика</title>
+    <title>Медиа — Проектная практика</title>
 
-<style>
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
-
-    body {
-        font-family: Arial, sans-serif;
-        background: #f4f6f8;
-        color: #222;
-        line-height: 1.6;
-    }
-
-    header {
-        background: #20232a;
-        color: white;
-        padding: 25px 0;
-    }
-
-    nav {
-        max-width: 1100px;
-        margin: 0 auto;
-        padding: 0 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    nav a {
-        color: white;
-        text-decoration: none;
-        margin-left: 20px;
-    }
-
-    nav a:hover {
-        text-decoration: underline;
-    }
-
-    main {
-        max-width: 1000px;
-        margin: 40px auto;
-        padding: 0 20px;
-    }
-
-    h1 {
-        margin-bottom: 25px;
-    }
-
-    .block {
-        background: white;
-        padding: 30px;
-        margin-bottom: 25px;
-        border-radius: 10px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    }
-
-    .block h2 {
-        margin-bottom: 15px;
-    }
-
-    .diagram {
-        width: 100%;
-        overflow-x: auto;
-    }
-
-    .diagram svg {
-        display: block;
-        width: 100%;
-        min-width: 650px;
-        height: auto;
-    }
-
-    .video {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-        height: 0;
-        overflow: hidden;
-        border-radius: 8px;
-    }
-
-    .video iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
-    }
-
-    footer {
-        margin-top: 60px;
-        padding: 25px;
-        text-align: center;
-        background: #20232a;
-        color: white;
-    }
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -113,7 +15,7 @@
 <header>
 <nav>
     <strong>Проектная практика</strong>
-	
+
 <div>
     <a href="index.html">Главная</a>
     <a href="project.html">О проекте</a>
@@ -124,264 +26,170 @@
 </div>
 
 </nav>
-
 </header>
 
 <main>
 
-<h1>Графика и медиа</h1>
+<h1>Медиа</h1>
 
-<section class="block">
-    <h2>Схема работы информационной системы</h2>
-
-    <p>
-        На схеме показан общий процесс обработки заявления
-        студента: от создания обращения до получения результата.
-    </p>
-
-    <div class="diagram">
-
-        <svg viewBox="0 0 900 430"
-             xmlns="http://www.w3.org/2000/svg">
-
-            <rect x="50" y="60" width="180" height="90"
-                  rx="12" fill="#e8eef7"
-                  stroke="#20232a" stroke-width="2"/>
-
-            <text x="140" y="100"
-                  text-anchor="middle"
-                  font-size="20">
-                Студент
-            </text>
-
-            <text x="140" y="128"
-                  text-anchor="middle"
-                  font-size="15">
-                Подача обращения
-            </text>
-
-
-            <rect x="360" y="60" width="180" height="90"
-                  rx="12" fill="#e8eef7"
-                  stroke="#20232a" stroke-width="2"/>
-
-            <text x="450" y="100"
-                  text-anchor="middle"
-                  font-size="20">
-                Система
-            </text>
-
-            <text x="450" y="128"
-                  text-anchor="middle"
-                  font-size="15">
-                Регистрация
-            </text>
-
-
-            <rect x="670" y="60" width="180" height="90"
-                  rx="12" fill="#e8eef7"
-                  stroke="#20232a" stroke-width="2"/>
-
-            <text x="760" y="100"
-                  text-anchor="middle"
-                  font-size="20">
-                Сотрудник
-            </text>
-
-            <text x="760" y="128"
-                  text-anchor="middle"
-                  font-size="15">
-                Рассмотрение
-            </text>
-
-
-            <line x1="230" y1="105"
-                  x2="360" y2="105"
-                  stroke="#20232a"
-                  stroke-width="3"/>
-
-            <polygon points="360,105 345,97 345,113"
-                     fill="#20232a"/>
-
-
-            <line x1="540" y1="105"
-                  x2="670" y2="105"
-                  stroke="#20232a"
-                  stroke-width="3"/>
-
-            <polygon points="670,105 655,97 655,113"
-                     fill="#20232a"/>
-
-
-            <rect x="360" y="250" width="180" height="90"
-                  rx="12" fill="#e8eef7"
-                  stroke="#20232a" stroke-width="2"/>
-
-            <text x="450" y="290"
-                  text-anchor="middle"
-                  font-size="20">
-                Результат
-            </text>
-
-            <text x="450" y="318"
-                  text-anchor="middle"
-                  font-size="15">
-                Ответ студенту
-            </text>
-
-
-            <line x1="760" y1="150"
-                  x2="760" y2="295"
-                  stroke="#20232a"
-                  stroke-width="3"/>
-
-            <line x1="760" y1="295"
-                  x2="540" y2="295"
-                  stroke="#20232a"
-                  stroke-width="3"/>
-
-            <polygon points="540,295 555,287 555,303"
-                     fill="#20232a"/>
-
-
-            <line x1="360" y1="295"
-                  x2="230" y2="295"
-                  stroke="#20232a"
-                  stroke-width="3"/>
-
-            <polygon points="230,295 245,287 245,303"
-                     fill="#20232a"/>
-
-            <text x="295" y="280"
-                  text-anchor="middle"
-                  font-size="14">
-                уведомление
-            </text>
-
-        </svg>
-
-    </div>
-</section>
-
-
-<section class="block">
-    <h2>Иллюстрация пользовательского процесса</h2>
-
-    <p>
-        Упрощённое представление основных действий пользователя
-        в информационной системе.
-    </p>
-
-    <svg viewBox="0 0 800 260"
-         xmlns="http://www.w3.org/2000/svg"
-         width="100%">
-
-        <rect x="40" y="70" width="150" height="100"
-              rx="15" fill="#f0f2f5"
-              stroke="#20232a" stroke-width="2"/>
-
-        <text x="115" y="110"
-              text-anchor="middle"
-              font-size="18">
-            Создать
-        </text>
-
-        <text x="115" y="138"
-              text-anchor="middle"
-              font-size="18">
-            обращение
-        </text>
-
-
-        <rect x="325" y="70" width="150" height="100"
-              rx="15" fill="#f0f2f5"
-              stroke="#20232a" stroke-width="2"/>
-
-        <text x="400" y="110"
-              text-anchor="middle"
-              font-size="18">
-            Отследить
-        </text>
-
-        <text x="400" y="138"
-              text-anchor="middle"
-              font-size="18">
-            статус
-        </text>
-
-
-        <rect x="610" y="70" width="150" height="100"
-              rx="15" fill="#f0f2f5"
-              stroke="#20232a" stroke-width="2"/>
-
-        <text x="685" y="110"
-              text-anchor="middle"
-              font-size="18">
-            Получить
-        </text>
-
-        <text x="685" y="138"
-              text-anchor="middle"
-              font-size="18">
-            результат
-        </text>
-
-
-        <line x1="190" y1="120"
-              x2="325" y2="120"
-              stroke="#20232a"
-              stroke-width="3"/>
-
-        <polygon points="325,120 310,112 310,128"
-                 fill="#20232a"/>
-
-
-        <line x1="475" y1="120"
-              x2="610" y2="120"
-              stroke="#20232a"
-              stroke-width="3"/>
-
-        <polygon points="610,120 595,112 595,128"
-                 fill="#20232a"/>
-
-    </svg>
-</section>
-
-
-<section class="block">
-    <h2>Видео по вариативной части</h2>
+<section>
+    <h2>Материалы проекта</h2>
 
 <p>
-    В качестве дополнительного материала размещён
-    видеогайд по созданию игры Space Invaders на языке C++
-    с использованием библиотеки raylib.
+    В данном разделе представлены изображения, схемы и другие
+    материалы, связанные с проектной практикой.
 </p>
 
-<br>
+<p>
+    Основная часть визуальных материалов относится к практической
+    реализации игры Space Invaders.
+</p>
 
-<div style="padding: 25px; background: #f0f2f5; border-radius: 10px; text-align: center;">
-    <h3>C++ Space Invaders Tutorial</h3>
+</section>
 
-    <p style="margin: 15px 0;">
-        Практический видеогайд по созданию игры Space Invaders
-        на C++ с использованием raylib и объектно-ориентированного
-        подхода.
-    </p>
+<section>
+    <h2>Скриншоты Space Invaders</h2>
 
-    <a href="https://rutube.ru/video/070f7b20774ae6ecc8c1dcb360bd63f2/"
-       target="_blank"
-       style="display: inline-block;
-              padding: 12px 20px;
-              background: #20232a;
-              color: white;
-              text-decoration: none;
-              border-radius: 6px;">
-        Открыть видеогайд
-    </a>
+<div class="gallery">
+
+    <div class="media-card">
+        <img src="images/menu.png"
+             alt="Главное меню Space Invaders">
+
+        <h3>Главное меню</h3>
+
+        <p>
+            Начальный экран игры с возможностью запуска игрового процесса.
+        </p>
+    </div>
+
+    <div class="media-card">
+        <img src="images/game.png"
+             alt="Игровой процесс Space Invaders">
+
+        <h3>Игровой процесс</h3>
+
+        <p>
+            Игровой экран с игроком, противниками, снарядами,
+            очками и количеством оставшихся жизней.
+        </p>
+    </div>
+
+    <div class="media-card">
+        <img src="images/gameover.png"
+             alt="Экран Game Over Space Invaders">
+
+        <h3>Окончание игры</h3>
+
+        <p>
+            Экран Game Over, который появляется после потери
+            всех жизней или достижения противниками нижней границы.
+        </p>
+    </div>
+
 </div>
 
 </section>
 
+<section>
+    <h2>Технические схемы</h2>
+
+<p>
+    Схемы используются для наглядного представления структуры
+    программы и основных принципов работы игры.
+</p>
+
+<div class="gallery">
+
+    <div class="media-card">
+        <img src="images/structure.svg"
+             alt="Архитектура проекта Space Invaders">
+
+        <h3>Архитектура проекта</h3>
+
+        <p>
+            Основные компоненты проекта и их взаимодействие.
+        </p>
+    </div>
+
+    <div class="media-card">
+        <img src="images/loop.svg"
+             alt="Основной игровой цикл">
+
+        <h3>Игровой цикл</h3>
+
+        <p>
+            Последовательность обработки ввода, обновления объектов,
+            столкновений и отрисовки кадра.
+        </p>
+    </div>
+
+    <div class="media-card">
+        <img src="images/states.svg"
+             alt="Состояния игры">
+
+        <h3>Состояния игры</h3>
+
+        <p>
+            Переходы между меню, игровым процессом и экраном Game Over.
+        </p>
+    </div>
+
+    <div class="media-card">
+        <img src="images/waves.svg"
+             alt="Система волн противников">
+
+        <h3>Система волн</h3>
+
+        <p>
+            Принцип формирования последовательных волн противников
+            и постепенного увеличения их скорости.
+        </p>
+    </div>
+
+</div>
+
+</section>
+
+<section>
+    <h2>Видео</h2>
+
+<div class="video">
+    <h3>Видео-презентация проекта</h3>
+
+    <p>
+        Видеопрезентация будет содержать краткое описание проекта,
+        демонстрацию работы игры и объяснение основных реализованных
+        функций.
+    </p>
+
+    <div class="video-placeholder">
+        <p>
+            Видео будет добавлено после записи и публикации
+            видеопрезентации.
+        </p>
+    </div>
+</div>
+
+</section>
+
+<section>
+    <h2>Визуальные материалы основного проекта</h2>
+
+<p>
+    Для основного проекта информационной системы визуальные материалы
+    представлены в виде описаний, схем и проектной документации.
+    Они используются для объяснения функций системы и её предполагаемой
+    структуры.
+</p>
+
+<div class="note">
+    Подробное описание основного проекта и практической реализации
+    доступно на странице «О проекте», а техническая документация
+    Space Invaders представлена в Markdown-файле проекта.
+</div>
+
+</section>
 
 </main>
 

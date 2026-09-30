@@ -6,84 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ресурсы — Проектная практика</title>
 
-<style>
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
-
-    body {
-        font-family: Arial, sans-serif;
-        background: #f4f6f8;
-        color: #222;
-        line-height: 1.6;
-    }
-
-    header {
-        background: #20232a;
-        color: white;
-        padding: 25px 0;
-    }
-
-    nav {
-        max-width: 1100px;
-        margin: 0 auto;
-        padding: 0 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    nav a {
-        color: white;
-        text-decoration: none;
-        margin-left: 20px;
-    }
-
-    nav a:hover {
-        text-decoration: underline;
-    }
-
-    main {
-        max-width: 1000px;
-        margin: 40px auto;
-        padding: 0 20px;
-    }
-
-    h1 {
-        margin-bottom: 25px;
-    }
-
-    .resource {
-        background: white;
-        padding: 25px;
-        margin-bottom: 20px;
-        border-radius: 10px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    }
-
-    .resource h2 {
-        margin-bottom: 10px;
-    }
-
-    .resource a {
-        color: #2563eb;
-        text-decoration: none;
-    }
-
-    .resource a:hover {
-        text-decoration: underline;
-    }
-
-    footer {
-        margin-top: 60px;
-        padding: 25px;
-        text-align: center;
-        background: #20232a;
-        color: white;
-    }
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -92,7 +15,7 @@
 <header>
 <nav>
     <strong>Проектная практика</strong>
-	
+
 <div>
     <a href="index.html">Главная</a>
     <a href="project.html">О проекте</a>
@@ -103,67 +26,189 @@
 </div>
 
 </nav>
-
 </header>
 
 <main>
 
 <h1>Ресурсы</h1>
 
-<section class="resource">
-    <h2>GitHub</h2>
+<section>
+    <h2>Документация и материалы проекта</h2>
+
+<div class="resource">
+    <h3>Документация Space Invaders</h3>
+
     <p>
-        Платформа для хранения исходного кода, документации
-        и ведения истории изменений проекта.
+        Подробное описание исследования и практической реализации
+        игры: технологии, структура проекта, игровой цикл,
+        состояния игры, управление, тестирование и дополнительные
+        изменения.
     </p>
+
     <p>
-        <a href="https://github.com/" target="_blank">
-            Перейти на GitHub
+        <a class="resource-link"
+           href="../docs/space-invaders.md">
+            Открыть документацию
         </a>
     </p>
+</div>
+
+<div class="resource">
+    <h3>Исходный код игры</h3>
+
+    <p>
+        Основная логика игры находится в файле
+        <code>src/main.cpp</code>. В нём реализованы игровой цикл,
+        управление, движение противников, стрельба, столкновения,
+        очки, жизни и состояния игры.
+    </p>
+
+    <p>
+        Файл находится в каталоге проекта
+        <code>space-invaders/src/</code>.
+    </p>
+</div>
+
+<div class="resource">
+    <h3>CMake</h3>
+
+    <p>
+        Для сборки проекта используется CMake.
+        Конфигурация проекта находится в файле
+        <code>space-invaders/CMakeLists.txt</code>.
+    </p>
+
+    <p>
+        CMake отвечает за настройку сборки и подключение
+        библиотеки raylib.
+    </p>
+</div>
+
 </section>
 
-<section class="resource">
-    <h2>Build Your Own X</h2>
+<section>
+    <h2>Используемые технологии</h2>
+
+<div class="resource">
+    <h3>C++17</h3>
+
     <p>
-        Репозиторий с практическими руководствами по созданию
-        различных программных проектов.
+        Основной язык программирования, на котором реализована
+        игровая логика проекта.
     </p>
+</div>
+
+<div class="resource">
+    <h3>raylib</h3>
+
     <p>
-        <a href="https://github.com/codecrafters-io/build-your-own-x"
-           target="_blank">
-            Открыть Build Your Own X
-        </a>
+        Графическая библиотека, использованная для создания окна,
+        отрисовки игровых объектов, обработки клавиатуры и
+        других элементов игрового приложения.
     </p>
+</div>
+
+<div class="resource">
+    <h3>CMake</h3>
+
+    <p>
+        Инструмент автоматизации сборки проекта.
+    </p>
+</div>
+
+<div class="resource">
+    <h3>Visual Studio 2022</h3>
+
+    <p>
+        Среда разработки и компилятор C++, использованные
+        для сборки и запуска приложения в Windows.
+    </p>
+</div>
+
 </section>
 
-<section class="resource">
-    <h2>Space Invaders from Scratch</h2>
+<section>
+    <h2>Исследовательские материалы</h2>
+
+<div class="resource">
+    <h3>Space Invaders from Scratch</h3>
+
     <p>
-        Серия материалов по пошаговой разработке игры
-        Space Invaders на C++.
+        В качестве исследовательского материала изучался пример
+        создания Space Invaders на C++ с использованием
+        OpenGL, GLFW и GLEW.
     </p>
+
     <p>
-        <a href="https://nicktasios.nl/posts/space-invaders-from-scratch-part-1.html"
-           target="_blank">
-            Открыть руководство
-        </a>
+        Материал использовался для изучения общей структуры
+        игровой программы, игрового цикла и основных этапов
+        разработки.
     </p>
+
+    <p>
+        Практическая реализация в данном проекте выполнена
+        самостоятельно с использованием raylib.
+    </p>
+</div>
+
 </section>
 
-<section class="resource">
-    <h2>Документация C++</h2>
+<section>
+    <h2>Материалы основного проекта</h2>
+
+<div class="resource">
+    <h3>Информационная система обработки заявлений студентов</h3>
+
     <p>
-        Справочные материалы по языку программирования C++,
-        которые могут использоваться при выполнении
-        вариативной части практики.
+        Основной проект проектной деятельности посвящён созданию
+        концепции единой информационной системы для обработки
+        заявлений и обращений студентов.
     </p>
+
     <p>
-        <a href="https://en.cppreference.com/w/"
-           target="_blank">
-            Открыть cppreference
-        </a>
+        Материалы проекта включают описание проблемы, цели,
+        задач, пользователей, требований и ожидаемого результата.
     </p>
+
+    <p>
+        Основное описание также представлено в каталоге
+        <code>docs/</code> репозитория.
+    </p>
+</div>
+
+</section>
+
+<section>
+    <h2>Инструменты разработки</h2>
+
+<div class="resource">
+    <h3>Git и GitHub</h3>
+
+    <p>
+        Git использовался для контроля версий проекта,
+        фиксации изменений и ведения истории разработки.
+        GitHub использовался для хранения удалённого
+        репозитория проекта.
+    </p>
+</div>
+
+<div class="resource">
+    <h3>GitHub Desktop</h3>
+
+    <p>
+        GitHub Desktop использовался для выполнения основных
+        операций с репозиторием: просмотра изменений,
+        создания коммитов и отправки изменений на GitHub.
+    </p>
+</div>
+
+<div class="note">
+    Все основные материалы практической части находятся
+    непосредственно в репозитории проекта. Это позволяет
+    сохранить исходный код, документацию и графические материалы
+    вместе.
+</div>
+
 </section>
 
 </main>
